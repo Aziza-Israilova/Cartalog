@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  color: #1D2F38;
+}
+
+.header__logo {
+  padding-top: 20px;
+}
+.header__menu {
+  padding-top: 41px;
+}
+.header__info {
+  padding-top: 45px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu__block {
+  padding: 0;
+  margin: 0;
+}
+.menu__item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1D2F38;
+}
+.menu__link i {
+  display: block;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.auth a {
+  position: relative;
+  display: block;
+  display: inline-block;
+  color: #1D2F38;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.auth a::before {
+  content: "\f0e0";
+  font-family: "Font awesome 6 free";
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #FFC82C;
+  width: 28px;
+  line-height: 0.6;
+}
+.auth a::after {
+  content: "";
+  width: 32px;
+  height: 22px;
+  background-color: orange;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */
